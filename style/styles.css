@@ -499,3 +499,56 @@ th{
     height: 272px;
     border-radius: 18px;
 }
+
+.all-image-box-six{
+    margin-bottom: -90px;
+}
+.image-text{
+    margin-left: 10px;
+}
+.image-text h1{
+    margin-bottom: 0;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+.image-text p{
+    margin-top: 0;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* Meet our team part end hare */
+
+/* Footer part start hare  */
+.box-shado-two{
+    width: 1500px;
+    height: 390px;
+    margin: 62px 0px;
+    background: rgb(34, 34, 34); 
+} 
+
+.footer-style{
+    color: #e6533c;
+}
+.footer-style-one{
+    color: white;
+}
+
+.footer-flex{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-side{
+    margin-bottom: -50px;
+}
+.item-center{
+    text-align: center;
+}
+.footer-hr{
+    Width: 1230px;
+    Height: 0px;
+    Top: 0px;
+    Left: 0px;
+    justify-content: center;
+    margin: 0 auto;
+}
+/* Footer part end hare  */
