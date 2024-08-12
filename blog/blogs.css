@@ -50,9 +50,6 @@ nav ul li a.active,a:hover{
     display: none;
 }
 @media(max-width: 576px) {
-    /* nav ul{
-        display: none;
-    } */
     #checkbtn{
         display: block;
      }
@@ -61,7 +58,6 @@ nav ul li a.active,a:hover{
      }
     
 }
-
 @media (max-width: 576px) {
     .navbar {
         flex-direction: row;
@@ -69,20 +65,17 @@ nav ul li a.active,a:hover{
         align-items: center;
         padding: 10px 20px;
     }
-
     #checkbtn {
-        display: block; /* Show the hamburger menu button */
+        display: block;
         margin-bottom: -65px;
         margin-left: 400px;
         pointer-events: none;
         
     }
-
     .brand {
         font-size: 3rem;
         margin-right: auto;
-        margin-top: 25px; /* Align the brand to the left */
-    }
+        margin-top: 25px;
 
     .full-radious {
         position: absolute;
@@ -96,7 +89,6 @@ nav ul li a.active,a:hover{
         background: rgba(0, 0, 0, 0.8);
         transition: all 0.3s ease;
     }
-
     #check:checked ~ .full-radious {
         right: 0;
     }
