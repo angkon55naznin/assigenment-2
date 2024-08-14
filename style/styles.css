@@ -33,7 +33,6 @@
     color: rgb(255, 255, 255);
 }
 
-/* navbar related style */
 .navbar{
     justify-content: space-between;
     align-items: center;
@@ -136,7 +135,7 @@
     }
 }
 
-/* Media Query for Mobile Devices Icon end hare */
+
 .healthy-height{
     width: 520px;
     height: 282px;
@@ -320,7 +319,6 @@
     height: 487px;
     background: rgb(34, 34, 34);
 }
-/* BMI Calculator Section */
 .calc{
     display: flex;
     justify-content: center;
@@ -338,13 +336,13 @@
     font-size: 16px;
     color: rgba(255,255,255,.6);
 }
-.BMI{
+.bmi{
     background: #222222;
     color: white;
     padding-bottom: 120px;
     padding-top: 60px;
 }
-.BMI-container{
+.bmi-container{
     max-width: 1440px;
     margin: 0 auto;
     display: flex;
@@ -520,7 +518,6 @@ th{
     justify-content: center;
     margin: 0 auto;
 }
-
 @media screen and (max-width: 576px){
     .navbar, .nav-link, .exprience-badge, .banner-image{
         grid-template-columns: repeat(1, 1fr);
@@ -582,7 +579,6 @@ th{
         margin-left: -50px;
     }
 }
-
 @media screen and (max-width: 576px){
     .mile{
         flex-wrap: wrap;
@@ -622,11 +618,11 @@ th{
     .calc{
         padding: 30px;
     }
-    .BMI-container{
+    .bmi-container{
         flex-direction: column;
         gap: 30px;
     }
-    .BMI{
+    .bmi{
         padding: 30px;
     }
     .measure{
@@ -638,11 +634,11 @@ th{
     .calc{
         padding: 30px;
     }
-    .BMI-container{
+    .bmi-container{
         flex-direction: column;
         gap: 30px;
     }
-    .BMI{
+    .bmi{
         padding: 30px;
     }
     .measure{
